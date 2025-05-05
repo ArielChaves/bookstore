@@ -134,7 +134,7 @@ REST_FRAMEWORK = {
 }
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = "0+fr@gyqi&93$8w_n&hp@j=p5ji_%2@3h9r&*v-#jq63x&v0u#"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = int(os.environ.get("DEBUG", default=0))
